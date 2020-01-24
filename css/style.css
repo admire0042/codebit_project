@@ -1,0 +1,174 @@
+/*General*/
+body{
+	padding-top:50px;
+	font-family: Arial, Helvetica, sans-serif;
+}
+h1{
+	font-size:35px;
+	font-weight: 800px;
+	padding-bottom:30px;
+}
+h2{
+	font-size:18px;
+	font-weight:800px;
+}
+.main-container{
+	width:80%;
+	margin:0 auto;
+}
+.single-row{
+	width:100%;
+}
+
+/*Header*/
+.col-full{
+	width:100%;
+	background-color: black;
+	color:white;
+	padding-top: 10px;
+	padding-bottom: 40px;
+}
+.part-1{
+	float: left;
+}
+.part-2{
+	float: right;
+	padding-bottom: 10px;
+	
+}
+.col-full .part-1 a{
+	padding-left:30px;
+	padding-right:20px;
+}
+.col-full .part-2 a{
+	padding-bottom:50px;
+	padding-left: 20px;
+	
+}
+.col-full .part-1 a, .col-full .part-2 a{
+	text-decoration: none;
+	font-size:19px;
+}
+
+.part-1 a{
+	color:white;
+}
+.part-2 a{
+	color:white;
+}
+
+
+
+/*section*/
+.col-left{
+	width:45%;
+	padding-top: 150px;		
+}
+.col-right{
+	width:50%;
+	
+}
+.col-left, .col-right{
+	float: left;
+}
+.col-1{
+	width:40%;
+	padding-right: 100px;
+}
+
+.button-1{
+	margin-top: 20px;
+}
+#SignUpD, #SignUpR{
+	border:1px blue solid;
+	color:blue;
+	background-color:white;
+	padding-bottom:5px;
+	padding-top:5px;
+	padding-left: 10px;
+	padding-right: 10px;
+	
+}
+#SignUpD{
+	background-color: blue;
+	color:white;
+}
+
+
+h1{
+	width:80%;
+	font-weight:1000;
+	
+}
+.col-2{
+	width:35%;
+}
+.col-1, .col-2{
+	float: left;
+	
+}
+.col-right img{
+width: 100%;
+}
+.clear-fix{
+	clear: both;
+}
+@media(max-width:760px){
+	header .col-full{
+		float:none;
+		text-align: justify;
+		width:100%;
+		padding-bottom: 70px;
+		
+	}
+	.col-full{
+		padding:20px;
+	}
+	.col-full .part-1 a{
+		padding-right:0px;
+	}
+	.col-full .part-2{
+		float:left;
+		text-align: justify;
+		margin-top:10px;
+	}
+	.col-full .part-2 a{
+		padding-left:30px;
+		padding-right:0px;
+	}
+	.col-left, .col-right{
+		float:none;
+		text-align:center;
+		width:100%
+	}
+	.col-1, .col-2{
+		float:none;
+		text-align:center;
+		width:100%
+	}
+	h1{
+		width:100%;
+		font-weight:1000;	
+	}	
+	#SignUpD{
+		padding-bottom:10px;
+		margin-bottom:20px;
+	}
+	#SignUpR{
+		padding-bottom:10px;
+		margin-bottom:30px;
+	}
+
+	.col-left{
+		width:100%;
+		padding-top: 10px;		
+	}
+
+
+
+
+
+    
+}
+
+
